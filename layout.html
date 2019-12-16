@@ -9,29 +9,11 @@
 </head>
 <body>
 
-
     <div id="content">
         <h1></h1>
     </div>
 
-
-    <script src="init.js"></script>
-
     <script src="https://unpkg.com/bindery"></script>
-    <script>
-      Bindery.makeBook({
-          content: '#content',
-          pageSetup: {
-            size: { width: '80mm', height: '320mm' },
-            margin: { top: '12pt', inner: '12pt', outer: '16pt', bottom: '20pt' },
-        },
-          rules: [
-            // Bindery.PageBreak({ selector: 'h2', position: 'before' }),
-            Bindery.FullBleedSpread({ selector: '.big-figure' })
-          ],
-      });
-
-
-    </script>
+    <script src="init.js"></script>
 </body>
 </html>

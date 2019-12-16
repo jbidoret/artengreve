@@ -1,8 +1,11 @@
-
+@media print {
+    
+}
 @font-face {
     font-family: 'ArtEnGreve';
     src: url('font/AlteHaasGroteskBold.woff') format('woff');
 }
+h1 { margin: 0 0 -.05em; overflow: hidden; background: red; max-height: 100%}
 
 span {
     font-family: "ArtEnGreve";
