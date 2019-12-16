@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: 'ArtEnGreve';
+    src: url('font/AlteHaasGroteskBold.woff') format('woff');
+}
+
+span {
+    font-family: "ArtEnGreve";
+    display: block; /* black */
+    overflow: hidden; /* masks */
+    font-size: 9em; /* huge */
+    text-align: center; /* far left = way better */
+    text-transform: uppercase; /* loud */
+    /* transform: scaleX(2); */
+    line-height: .8; /* tight */
+    /* // strike!
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-stroke: 3px black;
+    -webkit-text-fill-color: white; */
+}
+
+span:last-child {
+    /* cortège de tête */
+    letter-spacing: -.1em;
+    margin-left: -.1em;
+}
